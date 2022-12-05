@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sneaker Box</title>
+  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="icon" type="image/x-icon" href="/imgs/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+  <div class="header">
+    <img src="/imgs/header.jpeg">
+  </div>
+  <div class="menuContainer">
+    <div class="menuItem" id="showMain"><img src="/imgs/menu.png"></div>
+    <div class="menuItem" id="cartIcon"><img src="/imgs/shopping-cart.png"></div>
+    <div class="menuItem" id="fullCartIcon" style="display: none;"><img src="/imgs/full-cart.png"><span id="totalPriceIcon">0</span></div>
+  </div>
+  <div class="itemContainer">
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1a.png">
+      <h2 class="itemName">Jordan 1 Red Court</h2>
+      <h2 class="price">119.99$</h2>
+      <button class="toCartbtn" id="0">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1b.png">
+      <h2 class="itemName">Jordan 4 White Label</h2>
+      <h2 class="price">99.99$</h2>
+      <button class="toCartbtn" id="1">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1c.png">
+      <h2 class="itemName">Jordan 4 White Red</h2>
+      <h2 class="price">89.99$</h2>
+      <button class="toCartbtn" id="2">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1d.png">
+      <h2 class="itemName">Jordan 3 White</h2>
+      <h2 class="price">119.99$</h2>
+      <button class="toCartbtn" id="3">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1e.png">
+      <h2 class="itemName">Jordan 1 Legacy</h2>
+      <h2 class="price">99.99$</h2>
+      <button class="toCartbtn" id="4">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1f.png">
+      <h2 class="itemName">Jordan 1 Space</h2>
+      <h2 class="price">169.99$</h2>
+      <button class="toCartbtn" id="5">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1g.png">
+      <h2 class="itemName">Jordan 1 UNC</h2>
+      <h2 class="price">219.99$</h2>
+      <button class="toCartbtn" id="6">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1h.png">
+      <h2 class="itemName">Jordan 1 NRG</h2>
+      <h2 class="price">139.99$</h2>
+      <button class="toCartbtn" id="7">Add To Cart</button>
+    </div>
+    <div class="itemCard">
+      <img class="item" src="/imgs/jordan1i.png">
+      <h2 class="itemName">Jordan 1 Orange</h2>
+      <h2 class="price">99.99$</h2>
+      <button class="toCartbtn" id="8">Add To Cart</button>
+    </div>
+  </div>
+  <div class="spacer">
+  <h2 class="itemName">Shopping Cart</h2>
+  </div>
+  <div id="cartContainer">
+  </div>
+  <h2 class="itemName" id="totalPriceCart"></h2>
+</body>
+</html>
+
